@@ -5,9 +5,13 @@ This is my first project in React library which I developed during the Software 
 ## Features
 
 Fetch parcel data from REST API.
+
 Search a parcel by parcel-ID.
+
 Sort a parcel list view by ETA and status.
+
 View parcel details - brief and detailed view trigged by "View More" button.
+
 View parcel location on an integrated map.
 
 # Note:
