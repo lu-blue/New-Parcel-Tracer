@@ -14,18 +14,18 @@ View parcel details - brief and detailed view trigged by "View More" button.
 
 View parcel location on an integrated map.
 
-## Note:
+### Note:
 Since the scope of the project is limited, the app shows how the pages look for an already logged in user.
 
 ## How to run application
 
-# Requirements:
+### Requirements:
 
 Node.js
 GIT
 Integrated development environment (IDE)
 
-# Using GIT and IDE 
+### Using GIT and IDE 
 
 1. Open your IDE Terminal and open the directory in which you will store your new application.
 
@@ -46,10 +46,10 @@ Usually it´s this: [http://localhost:3000](http://localhost:3000). If you alrea
 
  If you make edits, the browser may show errors. In order to avoid it, kill the terminal, save your changes and use the command npm start again.
 
-## Dependencies needed to be installed before running the app
+### Dependencies needed to be installed before running the app
 
 React router
 Axios
 Mapbox
 
-# Enjoy!
+## Enjoy!
