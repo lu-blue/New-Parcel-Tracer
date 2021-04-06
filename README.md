@@ -14,7 +14,7 @@ View parcel details - brief and detailed view trigged by "View More" button.
 
 View parcel location on an integrated map.
 
-# Note:
+## Note:
 Since the scope of the project is limited, the app shows how the pages look for an already logged in user.
 
 ## How to run application
