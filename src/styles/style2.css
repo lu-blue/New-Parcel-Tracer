@@ -1,0 +1,15 @@
+.App {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+  }
+  
+  .my-component {
+    margin: 24px;
+    padding: 24px;
+    border: solid 2px black;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
