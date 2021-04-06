@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Parcel Tracker React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my first project in React library which I developed during the Software Development Academy course (2021). 
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+Fetch parcel data from REST API.
+Search a parcel by parcel-ID.
+Sort a parcel list view by ETA and status.
+View parcel details - brief and detailed view trigged by "View More" button.
+View parcel location on an integrated map.
 
-### `npm start`
+# Note:
+Since the scope of the project is limited, the app shows how the pages look for an already logged in user.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How to run application
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Requirements:
 
-### `npm test`
+Node.js
+GIT
+Integrated development environment (IDE)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Using GIT and IDE 
 
-### `npm run build`
+1. Open your IDE Terminal and open the directory in which you will store your new application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Clone this app repository and pull a copy of it to use locally by writing a command in your terminal 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+$ git clone https://github.com/lu-blue/New-Parcel-Tracer.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Go into the cloned project folder and install the project dependencies by writing the following command:
 
-### `npm run eject`
+$ npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Each time you want to run teh application, use the command:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+$ npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This will start the app in the development mode, opening a browser where you will see how a finished app looks. You need to navigate to localhost to view it in the browser.
+Usually it´s this: [http://localhost:3000](http://localhost:3000). If you already run something else on this localhost, you´ll be asked to choose another route (y/n question).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ If you make edits, the browser may show errors. In order to avoid it, kill the terminal, save your changes and use the command npm start again.
 
-## Learn More
+## Dependencies needed to be installed before running the app
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+React router
+Axios
+Mapbox
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Enjoy!
