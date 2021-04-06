@@ -49,7 +49,9 @@ Usually it´s this: [http://localhost:3000](http://localhost:3000). If you alrea
 ### Dependencies needed to be installed before running the app
 
 React router
+
 Axios
+
 Mapbox
 
 ## Enjoy!
