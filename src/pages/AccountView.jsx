@@ -52,7 +52,7 @@ export default function AccountView() {
 
         {/* Search options */}
       <section className="filter-box">
-        Filter results by: 
+        Filter results by:<br /> 
         <button className="filter" onClick={() => setSortKey("eta")}>ETA</button>
         <button className="filter" onClick={() => setSortKey("status")}>Status</button>
       </section>
