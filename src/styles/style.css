@@ -177,13 +177,11 @@ logo {
 .map {
   margin-bottom: 16px;
   margin-top: 16px;
-  margin-left: 96px;
   border-radius: 15px;
   box-shadow: 2px 2px 5px 0px whitesmoke;
-  width: 60%;
-  max-width: 60%;
+  width: 90%;
+  max-width: 90%;
   height: auto;
-  display: flex;
 }
 
 .read-more-button {
@@ -215,15 +213,14 @@ logo {
   border: transparent;
   border-radius: 10px;
   box-sizing: border-box;
-  width: 20%;
-  height: 30px;
+  width: 30%;
+  max-width: 30%;
   margin: 20px 0px;
   font-size: 17px;
   padding-left: 20px;
   position: right;
   color: white;
   background: #f4a63e; 
-  text-align: center;
 }
 
 .filter-box {
