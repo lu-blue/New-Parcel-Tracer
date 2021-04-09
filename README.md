@@ -1,6 +1,8 @@
 # Parcel Tracker React App
 
-This is my first project in React library which I developed during the Software Development Academy course (2021). 
+This is my first project in React library which I developed during the Software Development Academy course (2021).
+
+You can see the finished project on Firebase: https://new-parcel-tracer.web.app
 
 ## Features
 
@@ -22,7 +24,9 @@ Since the scope of the project is limited, the app shows how the pages look for 
 ### Requirements:
 
 Node.js
+
 GIT
+
 Integrated development environment (IDE)
 
 ### Using GIT and IDE 
