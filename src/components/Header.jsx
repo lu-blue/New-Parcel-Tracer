@@ -3,16 +3,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Internal
-import Logo from "../assets/parcel-logoo-name2.jpg";
+import Logo from "../assets/parcel-logoo-name.jpg";
+import SmallLogo from "../assets/parcel-logoo-nob.png";
 
 export default function Header() {
   return (
     <nav>
-      <img className="logo" src={Logo} alt="Blue parcel" />
+      <img className="logo" src={SmallLogo} alt="Blue parcel" />
 
       <div>
       <Link className="header-link" to="/">
-          <h2>Home</h2>
+          <h1>Home</h1>
         </Link>
         </div>
     </nav>

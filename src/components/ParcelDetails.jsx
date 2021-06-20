@@ -60,7 +60,7 @@ export default function ParcelDetails({ parcel }) {
           setReadMore(!readMore);
         }}
       >
-        <h2>{linkName}</h2>
+        <h3>{linkName}</h3>
       </button>
       {readMore && extraContent}
     </div>

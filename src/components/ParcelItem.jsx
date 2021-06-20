@@ -17,7 +17,7 @@ export default function ParcelItem({ prop }) {
 
       <div className="text">
         <hr />
-        <h2>PARCEL ID: {parcel_id}</h2>
+        <h3>PARCEL ID: {parcel_id}</h3>
         <span className="status">STATUS: {status}</span>
         <p>SENDER: {sender}</p>
         <p>
