@@ -10,7 +10,6 @@
   padding: 48px 16px 24px;
   background-color: #dbf3fa;
   background-repeat: round;
-  border-radius: 15px;
   font-family: "Old Standard TT", serif;
 }
 
@@ -32,7 +31,6 @@ a {
   text-decoration: none;
   color: #f4a63e;
 }
-
 
 nav {
   display: flex;
