@@ -22,10 +22,10 @@ export default function ParcelDetails({ parcel }) {
     <section className="AllDetails">
       <article className="text-details">
         <br />
-        <h2 className="details-h3">PARCEL ID: {parcel_id}</h2>
+        <h3 className="details-h3">PARCEL ID: {parcel_id}</h3>
 
         <div>
-          <span><b>FROM:</b> {sender}</span>
+          <span>FROM: {sender}</span>
           <p>TO: {user_name}</p>
           <p>STATUS: {status}</p>
           <br />

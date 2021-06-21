@@ -28,6 +28,12 @@ h3 {
   font-family: "Old Standard TT", serif;
 }
 
+a {
+  text-decoration: none;
+  color: #f4a63e;
+}
+
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -61,7 +67,7 @@ nav-links {
 
 Home {
   color: #2c3f94;
-  }
+}
 
 .home-link {
   height: auto;
@@ -241,7 +247,6 @@ logo {
   font-size: 17px;
   text-decoration: none;
 }
-  
 
 .biglogo {
   margin-bottom: 16px;
