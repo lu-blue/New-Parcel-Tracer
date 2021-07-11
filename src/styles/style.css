@@ -67,7 +67,7 @@ Home {
   color: #2c3f94;
 }
 
-.home-link {
+/* .home-link {
   height: auto;
   border: transparent;
   border-radius: 10px;
@@ -78,7 +78,8 @@ Home {
   font-size: 17px;
   padding-left: 20px;
 }
-
+ */
+ 
 .header-link {
   color: inherit;
   text-decoration: inherit;
@@ -89,17 +90,17 @@ Home {
 .home-button {
   color: inherit;
   text-decoration: none;
-  size: 16px;
+  size: 16px; 
   color: #2c3f94;
   height: auto;
   border: transparent;
   border-radius: 10px;
   box-sizing: border-box;
   width: 50%;
-  height: 50px;
+  height: 50px; 
   margin: 20px 0px;
   font-size: 17px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   cursor: pointer;
 }
 

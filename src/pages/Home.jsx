@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Internal
-import MapPic from "../assets/pin-adventure-map.jpg";
+import MapPic from "../assets/tax_package.jpg";
 import Logo from "../assets/parcel-logoo-name.jpg";
 
 export default function Home() {
@@ -20,9 +20,9 @@ export default function Home() {
       </div>
      
 
-      <img className="logo" src={Logo} alt="Blue parcel" />       
+      {/* <img className="logo" src={Logo} alt="Blue parcel" />        */}
 
-      {/* <img className="biglogo" src={MapPic} alt="A real map with pins" /> */}
+     <img className="biglogo" src={MapPic} alt="A real map with pins" />  
     </div>
   );
 }
