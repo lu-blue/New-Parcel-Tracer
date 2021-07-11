@@ -18,7 +18,6 @@ export default function App() {
           <Route component={Home} path="/" exact />
           <Route component={AccountView} path="/AccountView" />
         </Switch>
-
         <Footer />
       </div>
     </BrowserRouter>
