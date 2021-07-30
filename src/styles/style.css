@@ -4,17 +4,12 @@
 
 .App {
   text-align: center;
-  box-sizing: content-box;
   width: 100%;
   min-height: 100%;
   margin: 0;
   padding: 0;
   background-color: #dbf3fa;
   font-family: "Old Standard TT", serif;
-}
-
-.home {
-  color: #2c3f94;
 }
 
 h1 {
@@ -45,11 +40,11 @@ nav {
   /* padding: 0.5rem 0;  */
   background-color: white;
   height: auto;
-  position: sticky;
+  position: static;
   left: 0;
   top: 0;
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.9;
   margin: 0;
 }
 
@@ -101,9 +96,9 @@ nav-links {
 }
 
 .home-button:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2);
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
 }
 
 logo {
@@ -127,11 +122,8 @@ logo {
 
 @media (min-width: 750px) {
   .grid {
-    
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 24px; 
-    
-  
+    grid-column-gap: 24px;
   }
 }
 
@@ -155,9 +147,7 @@ logo {
 
 .text {
   margin-bottom: 16px;
-  
 
-  
   margin-top: 16px;
 
   text-align: left;
@@ -167,10 +157,7 @@ logo {
 
 .text-details {
   margin-bottom: 16px;
-
-
   margin-top: 16px;
-
   padding: 8px;
   color: #2c3f94;
   font-weight: bold;
@@ -179,15 +166,20 @@ logo {
 /* on mobiles */
 @media (max-width: 767px) {
   .text,
-  .text-details,
+  .text-details {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 767px) {
   .home-button,
   .taxa,
   .search-box,
   .filter,
   .read-more-button {
-    text-align: center !important;
     width: 90% !important;
     margin: 7px 0px !important;
+    
   }
 }
 
@@ -221,7 +213,7 @@ logo {
   border: transparent;
   color: whitesmoke;
   background: #dbf3fa;
-  font-size: large;
+  font-size:larger;
   font-weight: bold;
   position: center;
 }
@@ -283,13 +275,13 @@ logo {
 }
 
 .footer {
-  background-color: white; 
+  background-color: white;
 
   left: 0;
   bottom: 0;
   height: 150px;
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.9;
   margin: 0;
   padding: 0;
 }
