@@ -51,10 +51,10 @@ export default function AccountView() {
         />
 
         {/* Search options */}
-      <section className="filter-box">
-        Filter results by:<br /> 
+      <section className="filter-box" >
+      <br />  Filter by: 
         <button className="filter" onClick={() => setSortKey("eta")}>ETA</button>
-        <button className="filter" onClick={() => setSortKey("status")}>Status</button>
+        <button className="filter" onClick={() => setSortKey("status")}>Delivery status</button>
       </section>
       
       {filteredParcels.map((item) => (

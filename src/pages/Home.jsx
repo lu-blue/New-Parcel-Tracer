@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Internal
-import MapPic from "../assets/tax_package.jpg";
+import TaxPic from "../assets/tax_package.jpg";
 import Logo from "../assets/parcel-logoo-name.jpg";
 
 export default function Home() {
@@ -15,14 +15,17 @@ export default function Home() {
 
       <div>
         <Link to="/AccountView">
-          <button className="home-button">Go to Your Account</button>
+          <button className="home-button">GO TO ACCOUNT</button>
         </Link>
       </div>
-     
 
       {/* <img className="logo" src={Logo} alt="Blue parcel" />        */}
 
-     <img className="biglogo" src={MapPic} alt="A real map with pins" />  
+      <img
+        className="taxa"
+        src={TaxPic}
+        alt="A dachshund sitting in a cartoon box"
+      />
     </div>
   );
 }

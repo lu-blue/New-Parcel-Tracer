@@ -9,13 +9,15 @@ import SmallLogo from "../assets/parcel-logoo-nob.png";
 export default function Header() {
   return (
     <nav classname="header">
+      <Link to="/">
       <img className="logo" src={SmallLogo} alt="Blue parcel" />
+      </Link>
 
       <div>
-      <Link className="header-link" to="/">
+        <Link className="header-link" to="/">
           <h1>Home</h1>
         </Link>
-        </div>
+      </div>
     </nav>
   );
 }

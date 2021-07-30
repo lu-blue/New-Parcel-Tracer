@@ -44,13 +44,13 @@ export default function ParcelDetails({ parcel }) {
           <p>LAST UPDATED: {last_updated}</p>
           <p>NOTES: {notes === null ? "N/A" : notes}</p>
 
-          <hr />
+         
         </div>
       </article>
     </section>
   );
 
-  const linkName = readMore ? "View Less << " : "View More >> ";
+  const linkName = readMore ? "View Less" : "View More";
 
   return (
     <div className="More">
@@ -63,6 +63,7 @@ export default function ParcelDetails({ parcel }) {
         <h3>{linkName}</h3>
       </button>
       {readMore && extraContent}
+      {/* <hr /> */}
     </div>
   );
 }

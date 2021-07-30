@@ -1,17 +1,21 @@
+import { Link } from "react-router-dom";
+
 import SmallLogo from "../assets/parcel-logoo-nob.png";
 
 export default function Footer() {
   return (
     <footer className="footer">
-      <br />
-
+      
+<br/>
       <div className="footer__link">
-        <h3>
+        <h2>
           <a href="mailto:lubov.novozhilova@gmail.com">Contact us</a>
-        </h3>
-      </div>
-
+        </h2>
+      
+      <Link to="/">
       <img className="logo" src={SmallLogo} alt="Small blue parcel" />
+      </Link>
+      </div>
     </footer>
   );
 }
