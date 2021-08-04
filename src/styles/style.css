@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-  color: #f4a63e;
+  color: #f4a63e;   
   font-family: "Courgette", cursive;
 }
 
@@ -38,13 +38,14 @@ nav {
   text-align: center;
   min-height: 10vh;
   /* padding: 0.5rem 0;  */
-  background-color: white;
+  background-color: #FDF2C5; 
+  /* background-color: #E7E3DA; */
   height: auto;
-  position: static;
+  position:sticky;
   left: 0;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   margin: 0;
 }
 
@@ -102,13 +103,14 @@ nav-links {
 }
 
 logo {
-  max-width: 80px;
-  position: center;
+  max-width: 80px; 
+  /* position: center;
   justify-content: safe;
-  display: block;
+  display: block;  */
   width: 40%;
-  /* margin-bottom: 24px; */
-  mix-blend-mode: multiply;
+  margin: 0; 
+  padding: 0;
+  mix-blend-mode: multiply; 
 }
 
 @media (min-width: 550px) {
@@ -274,9 +276,8 @@ logo {
   height: auto;
 }
 
-.footer {
-  background-color: white;
-
+/* .footer {
+  background-color: #E7E3DA;
   left: 0;
   bottom: 0;
   height: 150px;
@@ -284,7 +285,24 @@ logo {
   opacity: 0.9;
   margin: 0;
   padding: 0;
+} */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  min-height: 10vh; 
+  background-color: #FDF2C5;
+  height: auto;
+  position:static;
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* opacity: 0.9; */
+  margin: 0;
 }
+
 
 /* 
 .footer {
